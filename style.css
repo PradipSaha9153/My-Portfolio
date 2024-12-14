@@ -1,0 +1,428 @@
+body {
+    margin: 1rem;
+    background-color: #fbdfdf;
+}
+
+.nav {
+    margin-top: 1.6rem;
+    height: 48px;
+    width: 75%;
+    background-color: #e9b99a;
+    justify-self: center;
+    border-radius: 100px;
+    box-shadow: #7c00003b 0 -25px 18px -14px inset, #7c00003b 0 1px 2px, #7c00003b 0 2px 4px, #7c00003b 0 4px 8px, #7c00003b 0 8px 16px, #7c00003b 0 16px 32px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.nav .f-img {
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.buttons {
+    margin-top: 0.8rem;
+}
+
+.buttons a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0 0.8rem 0 0.8rem;
+    color: #001374;
+    text-decoration: none;
+    transition-duration: 0.8s;
+}
+
+.buttons a:hover {
+    text-decoration: underline;
+    text-shadow: 0 2px 8px rgb(0, 0, 0);
+    font-weight: 800;
+    text-shadow: 0 8px 10px #001374;
+}
+
+/* ------------------------------------------------- */
+.nav .nav-menu {
+    margin-right: 1rem;
+}
+
+.nav .nav-menu button {
+    background-color: #e9ba9a00;
+    border: none;
+    font-size: 1.6rem;
+    color: #001374;
+}
+
+.nav .nav-menu .dropdown-menu {
+    background-color: #e99a9a46;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.nav .nav-menu .dropdown-menu a {
+    font-family: "Montserrat", sans-serif;
+    color: #001374;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    transition-duration: 0.3s;
+}
+
+.nav .nav-menu .dropdown-menu a:hover {
+    text-shadow: 0 2px 8px rgb(0, 0, 0);
+    font-weight: 800;
+    text-shadow: 0 8px 10px #001374;
+    background-color: transparent;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first .img .first-img {
+    height: 45rem;
+    margin-top: 3rem;
+}
+
+.first .img .first1-img {
+    height: 30rem;
+}
+
+.first .about {
+    color: black;
+    width: 30rem;
+    margin: 4rem 10rem 0 0;
+}
+
+
+.first .about h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    position: relative;
+}
+
+.first .about .f-heading {
+    color: #001374;
+    position: relative;
+}
+
+.first .about .s-heading {
+    color: #ffdc13;
+    z-index: 1;
+    bottom: 3.9rem;
+    margin-left: 4rem;
+    text-shadow: 2px 0 8px #000000bd;
+}
+
+.first .about .about-me {
+    position: relative;
+    margin-left: 2rem;
+    bottom: 1.5rem;
+    width: 36rem;
+}
+
+.first .about .about-me h3 {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 2rem;
+    background-color: #ffd500;
+    margin-top: 0;
+    width: fit-content;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.first .about .about-me p {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.f-line {
+    background-color: black;
+    height: 0.15rem;
+    width: 45rem;
+    position: absolute;
+    top: 26rem;
+    right: 0;
+}
+
+.f-l-line {
+    background-color: black;
+    height: 0.15rem;
+    width: 45rem;
+    position: absolute;
+    top: 80rem;
+    margin: 1rem 4rem 3rem 4rem;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4rem;
+    padding: 0;
+}
+
+.education .left {
+    width: 41rem;
+}
+
+.education .left h2 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffd900;
+    width: fit-content;
+    border-radius: 0 80% 0 80%;
+    font-size: 1.9rem;
+}
+
+.education .left h4 {
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    color: #001374;
+}
+
+.education .left .course {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-top: 0;
+    color: #000000ae;
+}
+
+.education .left .c-about {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    padding-right: 4rem;
+}
+
+/* ----------------------------------------- */
+.education .right {
+    width: 22rem;
+    align-content: center;
+}
+
+.education .right h2 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffd900;
+    width: fit-content;
+    border-radius: 0 80% 0 80%;
+    font-size: 1.9rem;
+}
+
+.education .right a {
+    font-family: "Rubik", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.education .right a i {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.education .right a span {
+    margin-left: 1rem;
+}
+
+.education .right a span:hover {
+    text-decoration: underline;
+}
+
+.education .right a span:active {
+    font-weight: 600;
+}
+
+.s-line {
+    background-color: black;
+    height: 0.15rem;
+    margin: 3rem 4rem 3rem 4rem;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.skill {
+    margin: 4.5rem 4rem 4rem 7rem;
+}
+
+.skill h2 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffd900;
+    width: fit-content;
+    border-radius: 0 80% 0 80%;
+    font-size: 1.9rem;
+}
+
+.skill .skill-container {
+    margin-top: 1rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.skill .skill-container img {
+    height: 5.5rem
+}
+
+.t-line {
+    background-color: black;
+    height: 0.15rem;
+    margin: 0 4rem 3rem 4rem;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.service {
+    margin: 4rem 4rem 2rem 5rem;
+}
+
+.service h2 {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffd900;
+    width: fit-content;
+    border-radius: 0 80% 0 80%;
+    font-size: 1.9rem;
+}
+
+.service .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service .services div {
+    height: 16rem;
+    width: 24rem;
+    border-color: 10px black;
+    justify-content: center;
+    align-content: center;
+    margin: 0.5rem;
+    padding: 20px;
+    background-color: #fafad2;
+    box-shadow: 0px 1px 5px #6d6d00;
+    text-align: center;
+    border-radius: 47% 53% 49% 51% / 66% 64% 36% 34%;
+}
+
+.service .services div i {
+    font-size: 1.5rem;
+    text-align: center;
+    color: red;
+}
+
+.service .services div h4 {
+    font-family: "Parkinsans", sans-serif;
+    font-size: 1.1rem;
+    color: #001374;
+}
+
+.service .services div p {
+    text-align: justify;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 0.9rem;
+}
+
+.fo-line {
+    background-color: black;
+    height: 0.15rem;
+    margin: 4rem 4rem 3rem 4rem;
+}
+
+/* --------------------------------- */
+/* --------------------------------- */
+
+.work {
+    margin: 1rem 2rem 20rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work .info {
+    width: 45rem;
+}
+
+.work .info h2 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    font-size: 2.2rem;
+}
+
+.work .info .f-heading {
+    color: #001374;
+}
+
+.work .info .f-heading .f-letter {
+    background-color: rgb(200, 0, 0);
+    font-size: 3rem;
+    color: white;
+    border-radius: 4% 96% 100% 0% / 100% 81% 19% 0%;
+}
+
+.work .info .f-heading i {
+    color: green;
+    font-size: 2rem;
+}
+
+.work .info .s-heading {
+    color: #ffdb0e;
+    z-index: 1;
+    bottom: 1.7rem;
+    margin-left: 6rem;
+    text-shadow: 0 2px 3px #ff2e2ec3;
+}
+
+.work .info p {
+    margin-top: 10px;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+/* ----------------------------------------- */
+
+.work .button a {
+    font-family: "Montserrat", sans-serif;
+    background-color: #ff973cdc;
+    border-radius: 100px;
+    color: #001374;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 1.45rem 1rem 1.45rem;
+    box-shadow: #00137440 0 -25px 18px -14px inset, #2e49cd40 0 1px 2px, #00137438 0 2px 4px, #00137430 0 4px 8px, #0013742f 0 8px 16px, #0013743b 0 16px 32px;
+    transition: 0.7s;
+}
+
+.work .button a:hover {
+    color: #ffd900;
+    background-color: #001374;
+    box-shadow: #ff9d0038 0 -25px 18px -14px inset, #ff9d0038 0 1px 2px, #ff9d0038 0 2px 4px, #ff9d0038 0 4px 8px, #ff9d0038 0 8px 16px, #ff9d0038 0 16px 32px;
+}

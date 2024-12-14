@@ -1,0 +1,335 @@
+@media(max-width: 1228px) {
+    .first {
+        margin-top: 2rem;
+    }
+
+    .first .img .first-img {
+        height: 40rem;
+    }
+}
+
+@media(min-width: 1169px) {
+    .first .img .first1-img {
+        display: none;
+    }
+}
+
+@media(max-width: 1167px) {
+    .f-line {
+        display: none;
+    }
+
+    .education {
+        margin-top: 1rem;
+    }
+}
+
+
+@media (max-width: 1014px) {
+    .first .img .first-img {
+        height: 35rem;
+    }
+
+    .first .img .first1-img {
+        height: 25rem;
+    }
+}
+
+@media (max-width: 875px) {
+    .first .img .first-img {
+        height: 30rem;
+    }
+
+    .first .img .first1-img {
+        height: 20rem;
+    }
+}
+
+@media(max-width: 772px) {
+    .nav .buttons {
+        display: none;
+    }
+}
+
+@media(min-width: 772px) {
+    .nav .nav-menu {
+        display: none;
+    }
+}
+
+@media(max-width: 750px) {
+    .education {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 733px) {
+    .first .img .first-img {
+        height: 25rem;
+    }
+
+    .first .img .first1-img {
+        height: 15rem;
+    }
+
+    .skill .skill-container img {
+        height: 4rem;
+    }
+}
+
+@media(max-width: 657px) {
+    .first .about h1 {
+        font-size: 3.8rem;
+        margin-left: 1rem;
+    }
+
+    .first .about .s-heading {
+        bottom: 3.4rem;
+    }
+
+    .first .about .about-me {
+        margin-left: 2rem;
+    }
+
+    .first .about .about-me h3 {
+        font-size: 1.8rem;
+    }
+
+    .education .left h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .education .right {
+        margin-top: 2rem;
+    }
+
+    .education .right h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .education .left h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .education .left .course {
+        font-size: 1rem;
+    }
+
+    .first .about .about-me p {
+        margin-right: 4rem;
+    }
+    /* __________________________________ */
+    .education .left .c-about {
+        font-size: 1rem;
+    }
+
+    .education .right a i {
+        font-size: 1.1rem;
+    }
+
+    .education .right a {
+        font-size: 1rem;
+    }
+
+    /* __________________________________ */
+    .s-line {
+        display: none;
+    }
+
+    .t-line {
+        display: none;
+    }
+
+    .fo-line {
+        display: none;
+    }
+
+    /* ___________________________________ */
+    .skill {
+        margin-left: 2rem;
+    }
+
+    .skill h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .skill .skills span {
+        margin: 1rem 2rem 2rem 2rem;
+    }
+
+    .skill .skills span img {
+        height: 4rem;
+    }
+
+    .skill .skills span p {
+        font-size: 1rem;
+    }
+
+    /* __________________________________ */
+    .education .left .c-about {
+        padding-right: 1rem;
+    }
+
+    /* __________________________________ */
+    .service {
+        margin: 0 4rem 2rem 2rem;
+    }
+
+    .service h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .service .services div {
+        height: 13rem;
+        width: 25rem;
+    }
+
+    .service .services div i {
+        font-size: 1.1rem;
+    }
+
+    .service .services div h4 {
+        font-size: 1rem;
+    }
+
+    .service .services div p {
+        font-size: 0.76rem;
+    }
+
+    /* ________________________________ */
+    .work {
+        margin-left: 2rem;
+    }
+
+    .work .info h2 {
+        font-size: 1.8rem;
+    }
+
+    .work .info .f-heading {
+        font-weight: 800;
+    }
+
+    .work .info .f-heading i {
+        font-size: 1.8rem;
+    }
+
+    .work .info .s-heading {
+        margin-top: 0.8rem;
+        margin-left: 2.5rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .work .button {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 593px) {
+    .first .img .first-img {
+        height: 20rem;
+    }
+
+    .first .img .first1-img {
+        height: 10rem;
+    }
+}
+
+@media(max-width: 582px) {
+    .first .about .about-me p {
+        margin-right: 7rem;
+    }
+}
+
+@media(max-width: 540px) {
+    .first .about h1 {
+        font-size: 3.4rem;
+    }
+
+    .first .about .s-heading {
+        bottom: 2.9rem;
+    }
+
+    .first .about .about-me h3 {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .first .about .about-me p {
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width: 510px) {
+    .first .about .about-me p {
+        margin-right: 11rem;
+    }
+}
+
+@media(max-width: 480px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width: 458px) {
+    body {
+        margin: 0;
+    }
+
+    .first .about h1 {
+        margin-left: 1rem;
+        font-size: 2.8rem;
+    }
+
+    .first .about .s-heading {
+        bottom: 2.3rem;
+    }
+
+    .first .about .about-me p {
+        font-size: 1rem;
+        padding-right: 5.5rem;
+    }
+
+    .first .about .about-me h3 {
+        font-size: 1.2rem;
+    }
+
+    .skill h2 {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .skill .skill-container {
+        margin-left: 1rem;
+    }
+
+    .skill .skill-container img {
+        height: 2.9rem;
+    }
+}
+
+@media (max-width: 453px) {
+    .first .img .first-img {
+        height: 15rem;
+    }
+
+    .first .img .first1-img {
+        height: 10rem;
+        margin-top: 6rem;
+    }
+}
+
+/* --------------------------------------- */
+
+
+/* ------------------------------------------ */
